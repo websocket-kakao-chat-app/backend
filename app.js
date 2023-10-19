@@ -10,6 +10,6 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log('connection established'));
+  .then(() => console.log('connection to database established'));
 
 module.exports = app;
